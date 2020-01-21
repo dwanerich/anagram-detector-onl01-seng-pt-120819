@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram
   
   attr_accessor :word
@@ -12,8 +13,6 @@ class Anagram
       element.split("").sort
     end
   end
-  
-  
 end
 
 listen = Anagram.new("listen")
